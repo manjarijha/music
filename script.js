@@ -9,9 +9,11 @@ display.onclick = function()
     song.play();
     display.src = "pause.png"
     }
+
     else
     {
-        song.paused();
-        display.src = "pause.png"
+        song.play();
+        display.src = "play.png";
+        song.pause();
     }
 }

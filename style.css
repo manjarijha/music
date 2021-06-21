@@ -64,26 +64,27 @@
 
 .content .right-col 
 {
+    margin-top: 120px;
     float: right;
-    margin: auto;
-}
-.content .right-col 
-{
-    margin-top: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.content .right-col p 
+
+.content .right-col p
 {
     font-size: 18px;
     font-weight: 400;
-
+    margin-top: 50px;
+    padding-left: 100px;
 }
 .content .right-col img
 {
+ 
+    margin-top: 30px;
     width: 100px;
 }
+
 
 
 
